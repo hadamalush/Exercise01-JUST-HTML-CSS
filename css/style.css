@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: white;
+	font-family: "Raleway", sans-serif;
+}
+
+.nav {
+	height: 80px;
+	background-color: #333;
+	font-size: 0;
+	text-align: center;
+}
+
+.navItem {
+	display: inline-block;
+	width: 25vw;
+	text-decoration: none;
+}
+.navItem a {
+	font-size: 25px;
+	line-height: 80px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #fff;
+	transition: color 0.3s, text-shadow 0.3s;
+}
+
+.navItem a:hover {
+	color: royalblue;
+	text-shadow: 0 0 15px rgb(100, 139, 255);
+}
